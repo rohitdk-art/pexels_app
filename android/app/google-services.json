@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1092055557587",
+    "project_id": "pexelsapp-c3a8b",
+    "storage_bucket": "pexelsapp-c3a8b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092055557587:android:eb5d4d0c3502722d25bb26",
+        "android_client_info": {
+          "package_name": "com.example.pexels_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4h-r7kzPa_KqTh4QiPIF6uZYATb4giXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
