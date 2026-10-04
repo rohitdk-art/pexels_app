@@ -1,17 +1,18 @@
-# pexels_app
+# Pexels_App
 
-A new Flutter project.
+A full-stack Flutter application that fetches, searches, and saves high-resolution images using the Pexels API. 
 
-## Getting Started
+## Features
+* **Infinite Scroll Feed:** Pinterest-style staggered masonry grid with automatic pagination.
+* **Debounced Search:** Efficiently search the Pexels database without spamming API calls.
+* **Local Persistence:** Save favorite photos locally across sessions using Shared Preferences.
+* **Modern State Management:** Fully reactive architecture built on Riverpod 2.0 (Notifier/ConsumerWidget).
+* **UI Polish:** Smooth fade-and-slide tile animations and interactive image viewing.
+* **Theme Support:** Global Light, Dark, and System theme toggling.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup Instructions
+1. Clone the repository.
+2. Run `flutter pub get` to install dependencies.
+3. Obtain a free API key from [Pexels](https://www.pexels.com/api/).
+4. To run this app, create a file named api_key.dart inside the lib/ directory and add: const String pexelsApiKey = 'YOUR_API_KEY';
+5. Run the app: `flutter run`

@@ -3,12 +3,12 @@ import 'package:http/http.dart' as http;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'pexels_image_model.dart';
 import 'package:flutter/foundation.dart';
+import '../../../api_key.dart';
 
 final pexelsRepositoryProvider = Provider<PexelsRepo>((ref) => PexelsRepo());
 
 class PexelsRepo {
-  static const String _apiKey =
-      'TED4yLyBVAmHHvlEOaD78wSt9cmcl2Zmlg54JT4pX1KjBzUr5wFbPuzM';
+  static const String _apiKey = pexelsApiKey; // Replace with your actual Pexels API key
   static const String _baseUrl = 'https://api.pexels.com/v1';
 
   Future<List<PexelsImageModel>> fetchCuratedPhotos(
